@@ -2,24 +2,24 @@ import Vue from 'vue'
 import { uid } from 'quasar'
 const state = {
   tasks: {
-    // 'ID1': {
-    //   name: 'Go to shop',
-    //   completed: false,
-    //   dueDate: '2020/06/30',
-    //   dueTime: '18:30'
-    // },
-    // 'ID2': {
-    //   name: 'Get bananas',
-    //   completed: false,
-    //   dueDate: '2020/07/01',
-    //   dueTime: '14:00'
-    // },
-    // 'ID3': {
-    //   name: 'Get apples',
-    //   completed: false,
-    //   dueDate: '2020/07/01',
-    //   dueTime: '16:00'
-    // }
+    'ID1': {
+      name: 'Go to shop',
+      completed: false,
+      dueDate: '2020/06/30',
+      dueTime: '18:30'
+    },
+    'ID2': {
+      name: 'Get bananas',
+      completed: false,
+      dueDate: '2020/07/01',
+      dueTime: '14:00'
+    },
+    'ID3': {
+      name: 'Get apples',
+      completed: false,
+      dueDate: '2020/07/01',
+      dueTime: '16:00'
+    }
   }
 }
 
